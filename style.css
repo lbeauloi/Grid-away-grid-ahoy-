@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    color: #6B6E7F;
+}
+
+body, .container{
+    background-color: #E6EFF6
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 25px;
+    margin: auto;
+    width: 1200px;
+    padding-top: 35px;
+}
+
+/* contenu des mes cases */
+.case {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+}
+
+.icons{
+    width: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px
+}
+
+.liens:hover{
+    border: 1px solid #4BAAF1;
+    border-radius: 50px;
+    background-color: #4BAAF1;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.liens{
+    text-decoration: none;
+    color: #6B6E7F;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-top: solid 2px #b2b4c2;
+    padding-top: 15px;
+}
+
+h2{
+    padding: 8px;
+    height: 105px;
+}
+
+p{
+    padding: 10px;
+}
+
+/* CENTRER LES BOUTONS ???
+
+.container{
+    position: relative;
+}
+
+.liens{
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+*/
